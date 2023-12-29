@@ -1,0 +1,74 @@
+body {
+  background-color: #f0ead6;
+}
+
+.checkbox-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.custom-rmargin {  /*Space between checbox and checkbox label -- reused for space between edit and delete buttons */
+  margin-right: 10px;
+}
+
+.custom-rmargin1 {  /*Space between edit and delete buttons */
+  margin-right: 20px;
+}
+
+.custom-margin{ /* Margin for dashboard  */
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.light-green-bg{ /* Light green background */
+  background-color: #afe6af !important;
+}
+
+.light-red-bg { /* Light red background */
+  background-color: #f3caca !important; 
+}
+
+.appname { /* Application Header */
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.logout-button {  /* Logout button placement */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.barChart {
+  margin: 0 auto; /* Center the chart horizontally */
+  width: 60%;
+  height: 25%;
+}
+
+.custom-font-size {
+  font-size: 1.2rem;
+}
+
+.table-color { /* Base color used for table cells */
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.center-buttons {
+  display: flex;
+  justify-content: center;
+}
